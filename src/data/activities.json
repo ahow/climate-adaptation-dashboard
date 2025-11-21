@@ -1,0 +1,276 @@
+[
+  {
+    "id": "desal-construction",
+    "sector": "Water Infrastructure",
+    "name": "Desalination Plants - Construction",
+    "description": "Engineering, procurement, and construction (EPC) services for reverse osmosis, thermal desalination, and hybrid systems",
+    "climate_risks": [
+      "Drought (Chronic)",
+      "Water Stress (Chronic)"
+    ],
+    "capex_opex": "CAPEX (100%)",
+    "market_size_bn": 7.4,
+    "growth_cagr": 8.9,
+    "key_companies": [
+      "IDE Technologies",
+      "Acciona Agua",
+      "Doosan Heavy"
+    ],
+    "factset_segments": [
+      "Wastewater Treatment Services",
+      "Water Infrastructure Construction",
+      "Desalination Equipment"
+    ],
+    "assumptions": {
+      "plant_capacity_m3_day": {
+        "value": 100000,
+        "unit": "m\u00b3/day",
+        "rationale": "Typical large-scale municipal desalination plant (e.g., Sorek Israel 624K m\u00b3/day, Carlsbad CA 189K m\u00b3/day)",
+        "source": "Global Water Intelligence Desaldata.com 2024",
+        "editable": true
+      },
+      "population_served": {
+        "value": 500000,
+        "unit": "people",
+        "rationale": "Calculated: 100,000 m\u00b3/day \u00f7 200 liters/person/day = 500,000 people",
+        "source": "WHO standard: 50-100 L/person/day minimum, 200 L/person/day for developed areas",
+        "editable": false,
+        "formula": "plant_capacity_m3_day * 1000 / 200"
+      },
+      "households_served": {
+        "value": 125000,
+        "unit": "households",
+        "rationale": "Calculated: 500,000 people \u00f7 4 people/household",
+        "source": "Global average household size",
+        "editable": false,
+        "formula": "population_served / 4"
+      },
+      "project_lifespan_years": {
+        "value": 30,
+        "unit": "years",
+        "rationale": "Standard desalination plant operational life",
+        "source": "World Bank Water Supply Infrastructure Guidelines (2020)",
+        "editable": true
+      },
+      "discount_rate": {
+        "value": 5,
+        "unit": "%",
+        "rationale": "Real discount rate for public infrastructure projects",
+        "source": "OMB Circular A-94 (US), HM Treasury Green Book (UK)",
+        "editable": true
+      },
+      "capex_m": {
+        "value": 250,
+        "unit": "$M",
+        "rationale": "Range: $2,000-3,000 per m\u00b3/day capacity. 100,000 m\u00b3/day \u00d7 $2,500 = $250M",
+        "source": "Desaldata.com (2024), IDA Desalination Yearbook 2023-2024",
+        "editable": true
+      },
+      "annual_opex_m": {
+        "value": 35,
+        "unit": "$M/year",
+        "rationale": "Operating costs: Energy (40-50%), Membranes (10-15%), Chemicals (5-10%), Labor (10-15%), Maintenance (15-20%)",
+        "source": "IDA (2023)",
+        "editable": true
+      },
+      "water_scarcity_cost_per_hh": {
+        "value": 1000,
+        "unit": "$/HH/year",
+        "rationale": "Includes: Bottled water ($300-500/year), trucked water ($200-400/year), time cost ($200-300/year), health impacts ($100-200/year)",
+        "source": "World Bank 'High and Dry' (2016), OECD Water Security Report (2021)",
+        "editable": true
+      },
+      "economic_activity_value_m": {
+        "value": 75,
+        "unit": "$M/year",
+        "rationale": "GDP enabled by water security: Industrial operations, tourism, agriculture. Conservative estimate: $150/person/year \u00d7 500K people",
+        "source": "World Bank Water and Growth Report (2020)",
+        "editable": true
+      },
+      "health_cost_per_person": {
+        "value": 50,
+        "unit": "$/person/year",
+        "rationale": "Avoided waterborne disease, reduced medical costs, prevented mortality",
+        "source": "WHO 'Safer Water, Better Health' (2019)",
+        "editable": true
+      },
+      "value_chain_attribution_pct": {
+        "value": 40,
+        "unit": "%",
+        "rationale": "Value distribution: Equipment suppliers (30%), EPC contractors (40%), O&M operators (20%), Developers (10%)",
+        "source": "Industry analysis, project financial structures",
+        "editable": true
+      }
+    },
+    "calculations": {
+      "total_lifecycle_cost_m": {
+        "formula": "capex_m + (annual_opex_m * 15.37)",
+        "description": "CAPEX + NPV of OPEX over 30 years (NPV factor 15.37 at 5%)"
+      },
+      "benefit_1_annual_m": {
+        "formula": "households_served * water_scarcity_cost_per_hh / 1000000",
+        "description": "Avoided household water scarcity costs"
+      },
+      "benefit_1_npv_m": {
+        "formula": "benefit_1_annual_m * 15.37",
+        "description": "NPV of benefit stream 1"
+      },
+      "benefit_2_annual_m": {
+        "formula": "economic_activity_value_m",
+        "description": "Economic activity enabled"
+      },
+      "benefit_2_npv_m": {
+        "formula": "benefit_2_annual_m * 15.37",
+        "description": "NPV of benefit stream 2"
+      },
+      "benefit_3_annual_m": {
+        "formula": "population_served * health_cost_per_person / 1000000",
+        "description": "Health benefits"
+      },
+      "benefit_3_npv_m": {
+        "formula": "benefit_3_annual_m * 15.37",
+        "description": "NPV of benefit stream 3"
+      },
+      "total_npv_benefits_m": {
+        "formula": "benefit_1_npv_m + benefit_2_npv_m + benefit_3_npv_m",
+        "description": "Total NPV of all benefits"
+      },
+      "bcr": {
+        "formula": "total_npv_benefits_m / total_lifecycle_cost_m",
+        "description": "Benefit-cost ratio"
+      },
+      "avoided_loss_per_1m": {
+        "formula": "bcr",
+        "description": "Avoided loss per $1M invested"
+      },
+      "adjusted_avoided_loss_per_1m": {
+        "formula": "avoided_loss_per_1m * (value_chain_attribution_pct / 100)",
+        "description": "Avoided loss adjusted for value chain position"
+      }
+    }
+  },
+  {
+    "id": "drought-seeds",
+    "sector": "Agriculture",
+    "name": "Drought-Resistant Seeds",
+    "description": "Genetically improved crop varieties with enhanced drought tolerance for staple crops",
+    "climate_risks": [
+      "Drought (Chronic)",
+      "Temperature Increase (Chronic)"
+    ],
+    "capex_opex": "OPEX (100%)",
+    "market_size_bn": 8.0,
+    "growth_cagr": 12.5,
+    "key_companies": [
+      "Corteva",
+      "Bayer Crop Science",
+      "Syngenta",
+      "BASF"
+    ],
+    "factset_segments": [
+      "Agricultural Seeds",
+      "Crop Biotechnology",
+      "Drought-Tolerant Varieties"
+    ],
+    "assumptions": {
+      "farm_size_ha": {
+        "value": 10000,
+        "unit": "hectares",
+        "rationale": "Large commercial farm. US average farm: 178 ha. Large operations: 1,000-50,000 ha",
+        "source": "USDA Census of Agriculture (2022)",
+        "editable": true
+      },
+      "normal_yield_tons_ha": {
+        "value": 8,
+        "unit": "tons/ha",
+        "rationale": "US average maize yield: 10.7 tons/ha (2023). Global average: 5.9 tons/ha. Conservative estimate",
+        "source": "USDA NASS (2024), FAO (2023)",
+        "editable": true
+      },
+      "crop_price_per_ton": {
+        "value": 625,
+        "unit": "$/ton",
+        "rationale": "Maize futures average 2020-2024: $200-300/ton. Processing premium: +$100-200/ton",
+        "source": "CBOT, World Bank Commodity Markets (2024)",
+        "editable": true
+      },
+      "drought_frequency": {
+        "value": 3,
+        "unit": "years/10",
+        "rationale": "Historical drought occurrence: 1-in-3 to 1-in-4 years in major growing regions. Increasing with climate change",
+        "source": "NOAA Drought Monitor (2024), IPCC AR6",
+        "editable": true
+      },
+      "conventional_drought_loss_pct": {
+        "value": 50,
+        "unit": "%",
+        "rationale": "Yield loss with conventional varieties under moderate-severe drought. Range: 30-70%",
+        "source": "FAO Drought Impact Studies (2021)",
+        "editable": true
+      },
+      "drought_resistant_loss_pct": {
+        "value": 20,
+        "unit": "%",
+        "rationale": "Yield loss with drought-tolerant varieties. Improvement: 30-50% better yield retention",
+        "source": "Corteva field trials (2020-2023)",
+        "editable": true
+      },
+      "seed_cost_premium_pct": {
+        "value": 25,
+        "unit": "%",
+        "rationale": "Premium for drought-tolerant traits: 20-30% above conventional",
+        "source": "Corteva Agriscience pricing (2024)",
+        "editable": true
+      },
+      "value_chain_attribution_pct": {
+        "value": 100,
+        "unit": "%",
+        "rationale": "Seed companies control IP and capture 100% of value from drought-resistant traits",
+        "source": "Industry analysis",
+        "editable": true
+      }
+    },
+    "calculations": {
+      "revenue_at_risk_m": {
+        "formula": "farm_size_ha * normal_yield_tons_ha * crop_price_per_ton / 1000000",
+        "description": "Total farm revenue from crop"
+      },
+      "yield_loss_prevented_pct": {
+        "formula": "conventional_drought_loss_pct - drought_resistant_loss_pct",
+        "description": "Yield loss prevented by drought-resistant seeds"
+      },
+      "loss_prevented_per_drought_m": {
+        "formula": "revenue_at_risk_m * (yield_loss_prevented_pct / 100)",
+        "description": "Revenue protected per drought event"
+      },
+      "benefit_1_annual_m": {
+        "formula": "loss_prevented_per_drought_m * (drought_frequency / 10)",
+        "description": "Expected annual benefit from yield protection"
+      },
+      "annual_seed_cost_m": {
+        "formula": "1.0 * (1 + seed_cost_premium_pct / 100)",
+        "description": "Annual cost of drought-resistant seeds"
+      },
+      "total_lifecycle_cost_m": {
+        "formula": "annual_seed_cost_m * 10",
+        "description": "Total seed costs over 10 years"
+      },
+      "total_npv_benefits_m": {
+        "formula": "benefit_1_annual_m * 7.72",
+        "description": "NPV of benefits (10 years, 5% discount)"
+      },
+      "bcr": {
+        "formula": "total_npv_benefits_m / total_lifecycle_cost_m",
+        "description": "Benefit-cost ratio"
+      },
+      "avoided_loss_per_1m": {
+        "formula": "bcr",
+        "description": "Avoided loss per $1M invested"
+      },
+      "adjusted_avoided_loss_per_1m": {
+        "formula": "avoided_loss_per_1m * (value_chain_attribution_pct / 100)",
+        "description": "Avoided loss adjusted for value chain position"
+      }
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "carrier-global",
+    "name": "Carrier Global Corp",
+    "revenue_m": 20350,
+    "segments": [
+      {
+        "segment": "HVAC Equipment",
+        "revenue_m": 15000,
+        "revenue_pct": 73.7,
+        "activity_id": "desal-construction",
+        "avoided_loss_per_1m": 1.4
+      }
+    ],
+    "total_avoided_loss_m": 21000,
+    "avoided_loss_pct": 103.2
+  },
+  {
+    "id": "corteva",
+    "name": "Corteva Inc",
+    "revenue_m": 17200,
+    "segments": [
+      {
+        "segment": "Agricultural Seeds",
+        "revenue_m": 8500,
+        "revenue_pct": 49.4,
+        "activity_id": "drought-seeds",
+        "avoided_loss_per_1m": 5.2
+      }
+    ],
+    "total_avoided_loss_m": 44200,
+    "avoided_loss_pct": 257.0
+  }
+]
