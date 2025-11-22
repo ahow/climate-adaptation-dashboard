@@ -29,9 +29,9 @@ RUN npm install -g serve
 # Copy built files from builder
 COPY --from=builder /app/dist ./dist
 
-# Expose port
-EXPOSE $PORT
+# Expose port (Heroku assigns dynamically)
+EXPOSE 3000
 
-# Start the application
-CMD serve dist -p $PORT -s
+# Start the application - Heroku will set PORT env var
+CMD ["sh", "-c", "serve dist -p ${PORT:-3000} -s"]
 
