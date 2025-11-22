@@ -1,0 +1,2686 @@
+[
+  {
+    "id": "heat-health-warning-systems-0",
+    "sector": "Climate Adaptation",
+    "name": "Heat Health Warning Systems",
+    "description": "Climate adaptation activity: Heat Health Warning Systems",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 385.0,
+    "bcr": 385.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 385.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 385.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 385.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "ai-and-machine-learning-for-climate-1",
+    "sector": "Technology & Innovation",
+    "name": "AI and Machine Learning for Climate",
+    "description": "Climate adaptation activity: AI and Machine Learning for Climate",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 370.0,
+    "bcr": 370.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 370.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 370.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 370.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "climate-risk-assessment-services-2",
+    "sector": "Climate Adaptation",
+    "name": "Climate Risk Assessment Services",
+    "description": "Climate adaptation activity: Climate Risk Assessment Services",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 212.0,
+    "bcr": 212.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 212.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 212.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 212.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "engineering-design-services-3",
+    "sector": "Climate Adaptation",
+    "name": "Engineering Design Services",
+    "description": "Climate adaptation activity: Engineering Design Services",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 133.5,
+    "bcr": 133.5,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 133.5,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 133.5,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 133.5,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "adaptation-strategy-development-4",
+    "sector": "Climate Adaptation",
+    "name": "Adaptation Strategy Development",
+    "description": "Climate adaptation activity: Adaptation Strategy Development",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 85.5,
+    "bcr": 85.5,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 85.5,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 85.5,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 85.5,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "supply-chain-monitoring-5",
+    "sector": "Supply Chain Resilience",
+    "name": "Supply Chain Monitoring",
+    "description": "Climate adaptation activity: Supply Chain Monitoring",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 50.0,
+    "bcr": 50.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 50.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 50.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 50.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "early-warning-systems-6",
+    "sector": "Climate Adaptation",
+    "name": "Early Warning Systems",
+    "description": "Climate adaptation activity: Early Warning Systems",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 20.0,
+    "bcr": 20.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 20.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 20.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 20.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "climate-risk-modeling-7",
+    "sector": "Climate Adaptation",
+    "name": "Climate Risk Modeling",
+    "description": "Climate adaptation activity: Climate Risk Modeling",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 15.0,
+    "bcr": 15.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 15.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 15.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 15.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "weather-forecasting-technology-8",
+    "sector": "Climate Adaptation",
+    "name": "Weather Forecasting Technology",
+    "description": "Climate adaptation activity: Weather Forecasting Technology",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 12.0,
+    "bcr": 12.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 12.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 12.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 12.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "mangrove-conservation-9",
+    "sector": "Climate Adaptation",
+    "name": "Mangrove Conservation",
+    "description": "Climate adaptation activity: Mangrove Conservation",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 12.0,
+    "bcr": 12.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 12.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 12.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 12.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "climate-risk-assessment-10",
+    "sector": "Climate Adaptation",
+    "name": "Climate Risk Assessment",
+    "description": "Climate adaptation activity: Climate Risk Assessment",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 10.0,
+    "bcr": 10.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 10.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 10.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 10.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "robotics-for-disaster-response-11",
+    "sector": "Technology & Innovation",
+    "name": "Robotics for Disaster Response",
+    "description": "Climate adaptation activity: Robotics for Disaster Response",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 10.0,
+    "bcr": 10.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 10.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 10.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 10.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "climate-data-analytics-12",
+    "sector": "Climate Adaptation",
+    "name": "Climate Data Analytics",
+    "description": "Climate adaptation activity: Climate Data Analytics",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 10.0,
+    "bcr": 10.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 10.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 10.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 10.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "living-shorelines-13",
+    "sector": "Climate Adaptation",
+    "name": "Living Shorelines",
+    "description": "Climate adaptation activity: Living Shorelines",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 10.0,
+    "bcr": 10.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 10.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 10.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 10.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "watershed-management-14",
+    "sector": "Climate Adaptation",
+    "name": "Watershed Management",
+    "description": "Climate adaptation activity: Watershed Management",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 9.0,
+    "bcr": 9.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 9.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 9.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 9.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "wetland-restoration-15",
+    "sector": "Climate Adaptation",
+    "name": "Wetland Restoration",
+    "description": "Climate adaptation activity: Wetland Restoration",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 8.0,
+    "bcr": 8.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 8.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 8.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 8.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "drought-resistant-seeds-16",
+    "sector": "Climate Adaptation",
+    "name": "Drought-Resistant Seeds",
+    "description": "Climate adaptation activity: Drought-Resistant Seeds",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 8.0,
+    "bcr": 8.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 8.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 8.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 8.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "seawalls-and-breakwaters-17",
+    "sector": "Climate Adaptation",
+    "name": "Seawalls and Breakwaters",
+    "description": "Climate adaptation activity: Seawalls and Breakwaters",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 8.0,
+    "bcr": 8.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 8.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 8.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 8.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "advanced-materials-18",
+    "sector": "Climate Adaptation",
+    "name": "Advanced Materials",
+    "description": "Climate adaptation activity: Advanced Materials",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 8.0,
+    "bcr": 8.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 8.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 8.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 8.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "environmental-consulting-19",
+    "sector": "Consulting & Professional Services",
+    "name": "Environmental Consulting",
+    "description": "Climate adaptation activity: Environmental Consulting",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 8.0,
+    "bcr": 8.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 8.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 8.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 8.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "logistics-optimization-20",
+    "sector": "Climate Adaptation",
+    "name": "Logistics Optimization",
+    "description": "Climate adaptation activity: Logistics Optimization",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 8.0,
+    "bcr": 8.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 8.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 8.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 8.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "tunnel-flood-protection-21",
+    "sector": "Climate Adaptation",
+    "name": "Tunnel Flood Protection",
+    "description": "Climate adaptation activity: Tunnel Flood Protection",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 7.0,
+    "bcr": 7.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 7.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 7.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 7.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "advanced-irrigation-systems-22",
+    "sector": "Climate Adaptation",
+    "name": "Advanced Irrigation Systems",
+    "description": "Climate adaptation activity: Advanced Irrigation Systems",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 7.0,
+    "bcr": 7.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 7.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 7.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 7.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "disaster-response-equipment-23",
+    "sector": "Climate Adaptation",
+    "name": "Disaster Response Equipment",
+    "description": "Climate adaptation activity: Disaster Response Equipment",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 7.0,
+    "bcr": 7.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 7.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 7.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 7.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "blockchain-for-climate-finance-24",
+    "sector": "Technology & Innovation",
+    "name": "Blockchain for Climate Finance",
+    "description": "Climate adaptation activity: Blockchain for Climate Finance",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 7.0,
+    "bcr": 7.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 7.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 7.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 7.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "urban-green-infrastructure-25",
+    "sector": "Climate Adaptation",
+    "name": "Urban Green Infrastructure",
+    "description": "Climate adaptation activity: Urban Green Infrastructure",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 7.0,
+    "bcr": 7.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 7.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 7.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 7.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "energy-storage-systems-26",
+    "sector": "Energy Systems",
+    "name": "Energy Storage Systems",
+    "description": "Climate adaptation activity: Energy Storage Systems",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 7.0,
+    "bcr": 7.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 7.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 7.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 7.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "flood-resistant-building-design-27",
+    "sector": "Infrastructure - Built Environment",
+    "name": "Flood-Resistant Building Design",
+    "description": "Climate adaptation activity: Flood-Resistant Building Design",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 7.0,
+    "bcr": 7.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 7.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 7.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 7.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "cool-roofs-and-reflective-materials-28",
+    "sector": "Infrastructure - Built Environment",
+    "name": "Cool Roofs and Reflective Materials",
+    "description": "Climate adaptation activity: Cool Roofs and Reflective Materials",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 6.5,
+    "bcr": 6.5,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 6.5,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 6.5,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 6.5,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "cold-chain-infrastructure-29",
+    "sector": "Climate Adaptation",
+    "name": "Cold Chain Infrastructure",
+    "description": "Climate adaptation activity: Cold Chain Infrastructure",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 6.0,
+    "bcr": 6.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 6.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 6.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 6.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "flood-control-infrastructure-30",
+    "sector": "Climate Adaptation",
+    "name": "Flood Control Infrastructure",
+    "description": "Climate adaptation activity: Flood Control Infrastructure",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 6.0,
+    "bcr": 6.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 6.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 6.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 6.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "precision-agriculture-technologies-31",
+    "sector": "Climate Adaptation",
+    "name": "Precision Agriculture Technologies",
+    "description": "Climate adaptation activity: Precision Agriculture Technologies",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 6.0,
+    "bcr": 6.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 6.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 6.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 6.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "port-and-airport-adaptation-32",
+    "sector": "Climate Adaptation",
+    "name": "Port and Airport Adaptation",
+    "description": "Climate adaptation activity: Port and Airport Adaptation",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 6.0,
+    "bcr": 6.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 6.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 6.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 6.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "storm-resistant-construction-33",
+    "sector": "Climate Adaptation",
+    "name": "Storm-Resistant Construction",
+    "description": "Climate adaptation activity: Storm-Resistant Construction",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 6.0,
+    "bcr": 6.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 6.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 6.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 6.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "microgrids-and-distributed-energy-34",
+    "sector": "Energy Systems",
+    "name": "Microgrids and Distributed Energy",
+    "description": "Climate adaptation activity: Microgrids and Distributed Energy",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 6.0,
+    "bcr": 6.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 6.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 6.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 6.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "reforestation-and-afforestation-35",
+    "sector": "Climate Adaptation",
+    "name": "Reforestation and Afforestation",
+    "description": "Climate adaptation activity: Reforestation and Afforestation",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 6.0,
+    "bcr": 6.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 6.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 6.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 6.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "vector-control-technologies-36",
+    "sector": "Climate Adaptation",
+    "name": "Vector Control Technologies",
+    "description": "Climate adaptation activity: Vector Control Technologies",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 6.0,
+    "bcr": 6.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 6.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 6.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 6.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "stormwater-management-systems-37",
+    "sector": "Climate Adaptation",
+    "name": "Stormwater Management Systems",
+    "description": "Climate adaptation activity: Stormwater Management Systems",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 5.0,
+    "bcr": 5.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 5.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 5.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 5.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "parametric-insurance-38",
+    "sector": "Climate Adaptation",
+    "name": "Parametric Insurance",
+    "description": "Climate adaptation activity: Parametric Insurance",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 5.0,
+    "bcr": 5.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 5.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 5.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 5.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "climate-resilient-building-materials-39",
+    "sector": "Climate Adaptation",
+    "name": "Climate-Resilient Building Materials",
+    "description": "Climate adaptation activity: Climate-Resilient Building Materials",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 5.0,
+    "bcr": 5.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 5.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 5.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 5.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "controlled-environment-agriculture-40",
+    "sector": "Climate Adaptation",
+    "name": "Controlled Environment Agriculture",
+    "description": "Climate adaptation activity: Controlled Environment Agriculture",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 5.0,
+    "bcr": 5.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 5.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 5.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 5.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "grid-hardening-and-resilience-41",
+    "sector": "Energy Systems",
+    "name": "Grid Hardening and Resilience",
+    "description": "Climate adaptation activity: Grid Hardening and Resilience",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 5.0,
+    "bcr": 5.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 5.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 5.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 5.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "railway-infrastructure-hardening-42",
+    "sector": "Climate Adaptation",
+    "name": "Railway Infrastructure Hardening",
+    "description": "Climate adaptation activity: Railway Infrastructure Hardening",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 5.0,
+    "bcr": 5.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 5.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 5.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 5.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "climate-resilient-roads-and-bridges-43",
+    "sector": "Climate Adaptation",
+    "name": "Climate-Resilient Roads and Bridges",
+    "description": "Climate adaptation activity: Climate-Resilient Roads and Bridges",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 5.0,
+    "bcr": 5.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 5.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 5.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 5.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "green-building-technologies-44",
+    "sector": "Infrastructure - Built Environment",
+    "name": "Green Building Technologies",
+    "description": "Climate adaptation activity: Green Building Technologies",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 5.0,
+    "bcr": 5.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 5.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 5.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 5.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "warehouse-climate-control-45",
+    "sector": "Climate Adaptation",
+    "name": "Warehouse Climate Control",
+    "description": "Climate adaptation activity: Warehouse Climate Control",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 5.0,
+    "bcr": 5.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 5.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 5.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 5.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "emergency-medical-services-46",
+    "sector": "Climate Adaptation",
+    "name": "Emergency Medical Services",
+    "description": "Climate adaptation activity: Emergency Medical Services",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 5.0,
+    "bcr": 5.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 5.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 5.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 5.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "biodiversity-protection-47",
+    "sector": "Climate Adaptation",
+    "name": "Biodiversity Protection",
+    "description": "Climate adaptation activity: Biodiversity Protection",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 5.0,
+    "bcr": 5.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 5.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 5.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 5.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "water-distribution-network-hardening-48",
+    "sector": "Climate Adaptation",
+    "name": "Water Distribution Network Hardening",
+    "description": "Climate adaptation activity: Water Distribution Network Hardening",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 4.5,
+    "bcr": 4.5,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 4.5,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 4.5,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 4.5,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "water-storage-and-reservoirs-49",
+    "sector": "Water Infrastructure",
+    "name": "Water Storage and Reservoirs",
+    "description": "Climate adaptation activity: Water Storage and Reservoirs",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 4.0,
+    "bcr": 4.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 4.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 4.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 4.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "crop-insurance-products-50",
+    "sector": "Climate Adaptation",
+    "name": "Crop Insurance Products",
+    "description": "Climate adaptation activity: Crop Insurance Products",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 4.0,
+    "bcr": 4.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 4.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 4.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 4.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "heat-resistant-infrastructure-51",
+    "sector": "Climate Adaptation",
+    "name": "Heat-Resistant Infrastructure",
+    "description": "Climate adaptation activity: Heat-Resistant Infrastructure",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 4.0,
+    "bcr": 4.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 4.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 4.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 4.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "hvac-systems-52",
+    "sector": "Infrastructure - Built Environment",
+    "name": "HVAC Systems",
+    "description": "Climate adaptation activity: HVAC Systems",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 4.0,
+    "bcr": 4.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 4.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 4.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 4.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "livestock-adaptation-solutions-53",
+    "sector": "Climate Adaptation",
+    "name": "Livestock Adaptation Solutions",
+    "description": "Climate adaptation activity: Livestock Adaptation Solutions",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 4.0,
+    "bcr": 4.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 4.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 4.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 4.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "disaster-insurance-products-54",
+    "sector": "Climate Adaptation",
+    "name": "Disaster Insurance Products",
+    "description": "Climate adaptation activity: Disaster Insurance Products",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 4.0,
+    "bcr": 4.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 4.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 4.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 4.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "beach-nourishment-55",
+    "sector": "Climate Adaptation",
+    "name": "Beach Nourishment",
+    "description": "Climate adaptation activity: Beach Nourishment",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 4.0,
+    "bcr": 4.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 4.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 4.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 4.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "advanced-cooling-systems-56",
+    "sector": "Infrastructure - Built Environment",
+    "name": "Advanced Cooling Systems",
+    "description": "Climate adaptation activity: Advanced Cooling Systems",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 4.0,
+    "bcr": 4.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 4.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 4.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 4.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "catastrophe-bonds-57",
+    "sector": "Climate Adaptation",
+    "name": "Catastrophe Bonds",
+    "description": "Climate adaptation activity: Catastrophe Bonds",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 4.0,
+    "bcr": 4.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 4.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 4.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 4.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "advanced-water-treatment-58",
+    "sector": "Water Infrastructure",
+    "name": "Advanced Water Treatment",
+    "description": "Climate adaptation activity: Advanced Water Treatment",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 3.5,
+    "bcr": 3.5,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 3.5,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 3.5,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 3.5,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "renewable-energy-infrastructure-59",
+    "sector": "Energy Systems",
+    "name": "Renewable Energy Infrastructure",
+    "description": "Climate adaptation activity: Renewable Energy Infrastructure",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 3.0,
+    "bcr": 3.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 3.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 3.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 3.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  },
+  {
+    "id": "desalination-plants-60",
+    "sector": "Climate Adaptation",
+    "name": "Desalination Plants",
+    "description": "Climate adaptation activity: Desalination Plants",
+    "climate_risks": [
+      "Climate Change Impacts"
+    ],
+    "capex_opex": "Mixed",
+    "market_size_bn": 0,
+    "growth_cagr": 0,
+    "key_companies": [],
+    "factset_segments": [],
+    "avoided_loss_per_1m": 3.0,
+    "bcr": 3.0,
+    "assumptions": {
+      "base_investment": {
+        "value": 1000000,
+        "unit": "$",
+        "rationale": "Base investment amount for calculating avoided losses",
+        "source": "Framework methodology",
+        "editable": true
+      },
+      "avoided_loss_multiplier": {
+        "value": 3.0,
+        "unit": "x",
+        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
+        "source": "Company-level analysis",
+        "editable": true
+      }
+    },
+    "calculated_metrics": {
+      "total_avoided_loss": {
+        "value": 3.0,
+        "unit": "$M",
+        "formula": "base_investment * avoided_loss_multiplier / 1000000"
+      },
+      "bcr": {
+        "value": 3.0,
+        "unit": "ratio",
+        "formula": "total_avoided_loss / (base_investment / 1000000)"
+      }
+    }
+  }
+]

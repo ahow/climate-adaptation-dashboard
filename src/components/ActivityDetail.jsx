@@ -57,7 +57,7 @@ export default function ActivityDetail({ activity, onAssumptionChange }) {
       ...Object.entries(calculatedMetrics).map(([key, metric]) => [
         key,
         typeof metric === 'number' ? metric.toFixed(2) : metric,
-        activity.calculations[key]?.description || ''
+                      activity.calculated_metrics?.[key]?.description || ''
       ])
     ].map(row => row.join(',')).join('\\n')
 
@@ -217,7 +217,7 @@ export default function ActivityDetail({ activity, onAssumptionChange }) {
                       {typeof value === 'number' ? value.toFixed(2) : value}
                     </TableCell>
                     <TableCell className="text-sm text-gray-600">
-                      {activity.calculations[key]?.description || ''}
+                      {activity.calculated_metrics?.[key]?.description || ''}
                     </TableCell>
                   </TableRow>
                 ))}

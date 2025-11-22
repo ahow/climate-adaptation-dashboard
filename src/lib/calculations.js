@@ -37,9 +37,15 @@ export function calculateMetrics(activity, editedValues = {}) {
   }
 
   // Calculate metrics in order (respecting dependencies)
-  Object.entries(activity.calculations).forEach(([key, calc]) => {
-    calculated[key] = evaluateFormula(calc.formula)
-  })
+  if (activity.calculated_metrics) {
+    Object.entries(activity.calculated_metrics).forEach(([key, calc]) => {
+      if (calc.formula) {
+        calculated[key] = evaluateFormula(calc.formula)
+      } else {
+        calculated[key] = calc.value || 0
+      }
+    })
+  }
 
   return calculated
 }

@@ -4,8 +4,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import ActivitiesList from './components/ActivitiesList.jsx'
 import ActivityDetail from './components/ActivityDetail.jsx'
 import CompaniesList from './components/CompaniesList.jsx'
-import activitiesData from './data/activities.json'
-import companiesData from './data/companies.json'
+import activitiesData from './data/activities_complete.json'
+import companiesData from './data/companies_complete.json'
 import './App.css'
 
 function App() {

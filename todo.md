@@ -39,7 +39,39 @@
 
 
 ## Deployment
-- [ ] Deploy dashboard to Heroku
-- [ ] Verify public access
+- [x] Deploy dashboard to Heroku
+- [x] Verify public access
+
+
+
+
+## Dashboard Expansion
+- [ ] Extract all 80+ activities from comprehensive framework
+- [ ] Import complete FactSet company database (~1,600 companies)
+- [ ] Add all company-activity mappings with segment details
+- [ ] Make value chain attribution percentages editable
+- [ ] Update data preparation scripts
+- [ ] Redeploy to Heroku with expanded data
+- [ ] Verify all activities and companies display correctly
+
+
+
+
+## Current Sprint - Complete Activity Integration
+- [x] Extract complete detailed list of all 61 activities with full metadata
+- [x] Create properly structured activities JSON matching dashboard schema
+- [x] Replace sample companies.json with 1,627 real companies
+- [x] Update CompaniesList component to handle large dataset with pagination
+- [x] Build production version with complete data
+- [x] Deploy to Heroku
+- [x] Verify all data displays correctly - All 61 activities and 1,627 companies loading successfully
+
+
+
+
+## Bugs to Fix
+- [ ] Fix blank page issue when clicking on activities in the dashboard
+- [ ] Investigate console errors and activity detail component
+- [ ] Ensure all 61 activities display correctly when selected
 
 
