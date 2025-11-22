@@ -1,0 +1,246 @@
+[
+  {
+    "activity": "Heat Health Warning Systems",
+    "avoided_loss_per_1m": 385.0
+  },
+  {
+    "activity": "AI and Machine Learning for Climate",
+    "avoided_loss_per_1m": 370.0
+  },
+  {
+    "activity": "Climate Risk Assessment Services",
+    "avoided_loss_per_1m": 212.0
+  },
+  {
+    "activity": "Engineering Design Services",
+    "avoided_loss_per_1m": 133.5
+  },
+  {
+    "activity": "Adaptation Strategy Development",
+    "avoided_loss_per_1m": 85.5
+  },
+  {
+    "activity": "Supply Chain Monitoring",
+    "avoided_loss_per_1m": 50.0
+  },
+  {
+    "activity": "Early Warning Systems",
+    "avoided_loss_per_1m": 20.0
+  },
+  {
+    "activity": "Climate Risk Modeling",
+    "avoided_loss_per_1m": 15.0
+  },
+  {
+    "activity": "Weather Forecasting Technology",
+    "avoided_loss_per_1m": 12.0
+  },
+  {
+    "activity": "Mangrove Conservation",
+    "avoided_loss_per_1m": 12.0
+  },
+  {
+    "activity": "Climate Risk Assessment",
+    "avoided_loss_per_1m": 10.0
+  },
+  {
+    "activity": "Robotics for Disaster Response",
+    "avoided_loss_per_1m": 10.0
+  },
+  {
+    "activity": "Climate Data Analytics",
+    "avoided_loss_per_1m": 10.0
+  },
+  {
+    "activity": "Living Shorelines",
+    "avoided_loss_per_1m": 10.0
+  },
+  {
+    "activity": "Watershed Management",
+    "avoided_loss_per_1m": 9.0
+  },
+  {
+    "activity": "Wetland Restoration",
+    "avoided_loss_per_1m": 8.0
+  },
+  {
+    "activity": "Drought-Resistant Seeds",
+    "avoided_loss_per_1m": 8.0
+  },
+  {
+    "activity": "Seawalls and Breakwaters",
+    "avoided_loss_per_1m": 8.0
+  },
+  {
+    "activity": "Advanced Materials",
+    "avoided_loss_per_1m": 8.0
+  },
+  {
+    "activity": "Environmental Consulting",
+    "avoided_loss_per_1m": 8.0
+  },
+  {
+    "activity": "Logistics Optimization",
+    "avoided_loss_per_1m": 8.0
+  },
+  {
+    "activity": "Tunnel Flood Protection",
+    "avoided_loss_per_1m": 7.0
+  },
+  {
+    "activity": "Advanced Irrigation Systems",
+    "avoided_loss_per_1m": 7.0
+  },
+  {
+    "activity": "Disaster Response Equipment",
+    "avoided_loss_per_1m": 7.0
+  },
+  {
+    "activity": "Blockchain for Climate Finance",
+    "avoided_loss_per_1m": 7.0
+  },
+  {
+    "activity": "Urban Green Infrastructure",
+    "avoided_loss_per_1m": 7.0
+  },
+  {
+    "activity": "Energy Storage Systems",
+    "avoided_loss_per_1m": 7.0
+  },
+  {
+    "activity": "Flood-Resistant Building Design",
+    "avoided_loss_per_1m": 7.0
+  },
+  {
+    "activity": "Cool Roofs and Reflective Materials",
+    "avoided_loss_per_1m": 6.5
+  },
+  {
+    "activity": "Cold Chain Infrastructure",
+    "avoided_loss_per_1m": 6.0
+  },
+  {
+    "activity": "Flood Control Infrastructure",
+    "avoided_loss_per_1m": 6.0
+  },
+  {
+    "activity": "Precision Agriculture Technologies",
+    "avoided_loss_per_1m": 6.0
+  },
+  {
+    "activity": "Port and Airport Adaptation",
+    "avoided_loss_per_1m": 6.0
+  },
+  {
+    "activity": "Storm-Resistant Construction",
+    "avoided_loss_per_1m": 6.0
+  },
+  {
+    "activity": "Microgrids and Distributed Energy",
+    "avoided_loss_per_1m": 6.0
+  },
+  {
+    "activity": "Reforestation and Afforestation",
+    "avoided_loss_per_1m": 6.0
+  },
+  {
+    "activity": "Vector Control Technologies",
+    "avoided_loss_per_1m": 6.0
+  },
+  {
+    "activity": "Stormwater Management Systems",
+    "avoided_loss_per_1m": 5.0
+  },
+  {
+    "activity": "Parametric Insurance",
+    "avoided_loss_per_1m": 5.0
+  },
+  {
+    "activity": "Climate-Resilient Building Materials",
+    "avoided_loss_per_1m": 5.0
+  },
+  {
+    "activity": "Controlled Environment Agriculture",
+    "avoided_loss_per_1m": 5.0
+  },
+  {
+    "activity": "Grid Hardening and Resilience",
+    "avoided_loss_per_1m": 5.0
+  },
+  {
+    "activity": "Railway Infrastructure Hardening",
+    "avoided_loss_per_1m": 5.0
+  },
+  {
+    "activity": "Climate-Resilient Roads and Bridges",
+    "avoided_loss_per_1m": 5.0
+  },
+  {
+    "activity": "Green Building Technologies",
+    "avoided_loss_per_1m": 5.0
+  },
+  {
+    "activity": "Warehouse Climate Control",
+    "avoided_loss_per_1m": 5.0
+  },
+  {
+    "activity": "Emergency Medical Services",
+    "avoided_loss_per_1m": 5.0
+  },
+  {
+    "activity": "Biodiversity Protection",
+    "avoided_loss_per_1m": 5.0
+  },
+  {
+    "activity": "Water Distribution Network Hardening",
+    "avoided_loss_per_1m": 4.5
+  },
+  {
+    "activity": "Water Storage and Reservoirs",
+    "avoided_loss_per_1m": 4.0
+  },
+  {
+    "activity": "Crop Insurance Products",
+    "avoided_loss_per_1m": 4.0
+  },
+  {
+    "activity": "Heat-Resistant Infrastructure",
+    "avoided_loss_per_1m": 4.0
+  },
+  {
+    "activity": "HVAC Systems",
+    "avoided_loss_per_1m": 4.0
+  },
+  {
+    "activity": "Livestock Adaptation Solutions",
+    "avoided_loss_per_1m": 4.0
+  },
+  {
+    "activity": "Disaster Insurance Products",
+    "avoided_loss_per_1m": 4.0
+  },
+  {
+    "activity": "Beach Nourishment",
+    "avoided_loss_per_1m": 4.0
+  },
+  {
+    "activity": "Advanced Cooling Systems",
+    "avoided_loss_per_1m": 4.0
+  },
+  {
+    "activity": "Catastrophe Bonds",
+    "avoided_loss_per_1m": 4.0
+  },
+  {
+    "activity": "Advanced Water Treatment",
+    "avoided_loss_per_1m": 3.5
+  },
+  {
+    "activity": "Renewable Energy Infrastructure",
+    "avoided_loss_per_1m": 3.0
+  },
+  {
+    "activity": "Desalination Plants",
+    "avoided_loss_per_1m": 3.0
+  }
+]
