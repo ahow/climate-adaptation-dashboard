@@ -89,3 +89,27 @@
 - [ ] Deploy to Heroku (pending valid API credentials)
 
 
+
+
+
+## GitHub Pages Deployment
+- [x] Create GitHub repository
+- [x] Configure Vite for GitHub Pages
+- [x] Build and deploy to gh-pages branch
+- [x] Enable GitHub Pages
+- [x] Verify deployment at https://ahow.github.io/climate-adaptation-dashboard/
+- [x] Test all enhanced features (segments, companies, assumptions)
+
+
+
+
+## Restore Detailed Assumptions & Editable Segments
+- [ ] Examine current assumptions data structure
+- [ ] Display all detailed assumptions (not just base_investment and multiplier)
+- [ ] Make all detailed assumptions editable with proper input fields
+- [ ] Implement add/delete functionality for FactSet segments
+- [ ] Make segment attribution percentages editable
+- [ ] Ensure real-time recalculation when assumptions or segments change
+- [ ] Rebuild and redeploy to GitHub Pages
+- [ ] Test all editing functionality
+

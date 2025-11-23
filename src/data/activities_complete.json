@@ -102,19 +102,77 @@
     "avoided_loss_per_1m": 385.0,
     "bcr": 385.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 385.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "system_cost": {
+        "value": 2500000,
+        "unit": "$",
+        "rationale": "City-wide heat warning system deployment cost",
+        "source": "CDC - Heat Response Planning Guide",
+        "editable": true,
+        "min": 500000,
+        "max": 5000000
+      },
+      "population_served": {
+        "value": 500000,
+        "unit": "people",
+        "rationale": "Population covered by the warning system",
+        "source": "City population data",
+        "editable": true,
+        "min": 100000,
+        "max": 5000000
+      },
+      "heat_mortality_reduction": {
+        "value": 0.45,
+        "unit": "%",
+        "rationale": "Reduction in heat-related mortality with warning system",
+        "source": "WHO - Heat-Health Action Plans",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.6
+      },
+      "baseline_heat_deaths": {
+        "value": 5,
+        "unit": "deaths/100k/year",
+        "rationale": "Baseline heat-related deaths per 100,000 population",
+        "source": "CDC WONDER Database",
+        "editable": true,
+        "min": 1,
+        "max": 10
+      },
+      "vsl": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Value of Statistical Life for benefit calculation",
+        "source": "EPA - Guidelines for Preparing Economic Analyses",
+        "editable": true,
+        "min": 5000000,
+        "max": 15000000
+      },
+      "annual_operating_cost": {
+        "value": 150000,
+        "unit": "$/year",
+        "rationale": "Annual cost to operate and maintain the system",
+        "source": "Municipal budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -273,19 +331,68 @@
     "avoided_loss_per_1m": 370.0,
     "bcr": 370.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 370.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -444,19 +551,68 @@
     "avoided_loss_per_1m": 212.0,
     "bcr": 212.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 212.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -615,19 +771,68 @@
     "avoided_loss_per_1m": 133.5,
     "bcr": 133.5,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 133.5,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -746,19 +951,68 @@
     "avoided_loss_per_1m": 85.5,
     "bcr": 85.5,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 85.5,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -917,19 +1171,68 @@
     "avoided_loss_per_1m": 50.0,
     "bcr": 50.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 50.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -1088,19 +1391,77 @@
     "avoided_loss_per_1m": 20.0,
     "bcr": 20.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 20.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "system_cost": {
+        "value": 2500000,
+        "unit": "$",
+        "rationale": "City-wide heat warning system deployment cost",
+        "source": "CDC - Heat Response Planning Guide",
+        "editable": true,
+        "min": 500000,
+        "max": 5000000
+      },
+      "population_served": {
+        "value": 500000,
+        "unit": "people",
+        "rationale": "Population covered by the warning system",
+        "source": "City population data",
+        "editable": true,
+        "min": 100000,
+        "max": 5000000
+      },
+      "heat_mortality_reduction": {
+        "value": 0.45,
+        "unit": "%",
+        "rationale": "Reduction in heat-related mortality with warning system",
+        "source": "WHO - Heat-Health Action Plans",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.6
+      },
+      "baseline_heat_deaths": {
+        "value": 5,
+        "unit": "deaths/100k/year",
+        "rationale": "Baseline heat-related deaths per 100,000 population",
+        "source": "CDC WONDER Database",
+        "editable": true,
+        "min": 1,
+        "max": 10
+      },
+      "vsl": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Value of Statistical Life for benefit calculation",
+        "source": "EPA - Guidelines for Preparing Economic Analyses",
+        "editable": true,
+        "min": 5000000,
+        "max": 15000000
+      },
+      "annual_operating_cost": {
+        "value": 150000,
+        "unit": "$/year",
+        "rationale": "Annual cost to operate and maintain the system",
+        "source": "Municipal budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -1259,19 +1620,68 @@
     "avoided_loss_per_1m": 15.0,
     "bcr": 15.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 15.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -1430,19 +1840,68 @@
     "avoided_loss_per_1m": 12.0,
     "bcr": 12.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 12.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -1565,19 +2024,68 @@
     "avoided_loss_per_1m": 12.0,
     "bcr": 12.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 12.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -1722,19 +2230,68 @@
     "avoided_loss_per_1m": 10.0,
     "bcr": 10.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 10.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -1893,19 +2450,68 @@
     "avoided_loss_per_1m": 10.0,
     "bcr": 10.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 10.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -2064,19 +2670,68 @@
     "avoided_loss_per_1m": 10.0,
     "bcr": 10.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 10.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -2207,19 +2862,68 @@
     "avoided_loss_per_1m": 10.0,
     "bcr": 10.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 10.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -2378,19 +3082,77 @@
     "avoided_loss_per_1m": 9.0,
     "bcr": 9.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 9.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "system_cost": {
+        "value": 15000000,
+        "unit": "$",
+        "rationale": "Cost of advanced irrigation/water system",
+        "source": "Agricultural engineering cost estimates",
+        "editable": true,
+        "min": 5000000,
+        "max": 50000000
+      },
+      "area_covered": {
+        "value": 5000,
+        "unit": "hectares",
+        "rationale": "Agricultural area served by the system",
+        "source": "Farm size and coverage data",
+        "editable": true,
+        "min": 1000,
+        "max": 20000
+      },
+      "water_efficiency_gain": {
+        "value": 0.4,
+        "unit": "%",
+        "rationale": "Improvement in water use efficiency",
+        "source": "FAO - Water Productivity Studies",
+        "editable": true,
+        "min": 0.2,
+        "max": 0.6
+      },
+      "crop_yield_increase": {
+        "value": 0.25,
+        "unit": "%",
+        "rationale": "Increase in crop yield with improved irrigation",
+        "source": "Agricultural research trials",
+        "editable": true,
+        "min": 0.1,
+        "max": 0.5
+      },
+      "crop_value_per_hectare": {
+        "value": 5000,
+        "unit": "$/hectare/year",
+        "rationale": "Average crop value per hectare",
+        "source": "USDA crop value statistics",
+        "editable": true,
+        "min": 2000,
+        "max": 15000
+      },
+      "annual_operating_cost": {
+        "value": 500000,
+        "unit": "$/year",
+        "rationale": "Annual cost to operate the system",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 100000,
+        "max": 2000000
       }
     },
     "calculated_metrics": {
@@ -2488,19 +3250,68 @@
     "avoided_loss_per_1m": 8.0,
     "bcr": 8.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 8.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -2654,19 +3465,77 @@
     "avoided_loss_per_1m": 8.0,
     "bcr": 8.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 8.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "system_cost": {
+        "value": 15000000,
+        "unit": "$",
+        "rationale": "Cost of advanced irrigation/water system",
+        "source": "Agricultural engineering cost estimates",
+        "editable": true,
+        "min": 5000000,
+        "max": 50000000
+      },
+      "area_covered": {
+        "value": 5000,
+        "unit": "hectares",
+        "rationale": "Agricultural area served by the system",
+        "source": "Farm size and coverage data",
+        "editable": true,
+        "min": 1000,
+        "max": 20000
+      },
+      "water_efficiency_gain": {
+        "value": 0.4,
+        "unit": "%",
+        "rationale": "Improvement in water use efficiency",
+        "source": "FAO - Water Productivity Studies",
+        "editable": true,
+        "min": 0.2,
+        "max": 0.6
+      },
+      "crop_yield_increase": {
+        "value": 0.25,
+        "unit": "%",
+        "rationale": "Increase in crop yield with improved irrigation",
+        "source": "Agricultural research trials",
+        "editable": true,
+        "min": 0.1,
+        "max": 0.5
+      },
+      "crop_value_per_hectare": {
+        "value": 5000,
+        "unit": "$/hectare/year",
+        "rationale": "Average crop value per hectare",
+        "source": "USDA crop value statistics",
+        "editable": true,
+        "min": 2000,
+        "max": 15000
+      },
+      "annual_operating_cost": {
+        "value": 500000,
+        "unit": "$/year",
+        "rationale": "Annual cost to operate the system",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 100000,
+        "max": 2000000
       }
     },
     "calculated_metrics": {
@@ -2825,19 +3694,77 @@
     "avoided_loss_per_1m": 8.0,
     "bcr": 8.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 8.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "infrastructure_cost": {
+        "value": 50000000,
+        "unit": "$",
+        "rationale": "Cost of flood protection infrastructure per km",
+        "source": "Army Corps of Engineers cost database",
+        "editable": true,
+        "min": 10000000,
+        "max": 200000000
+      },
+      "protected_area": {
+        "value": 10,
+        "unit": "km\u00b2",
+        "rationale": "Area protected by flood infrastructure",
+        "source": "Engineering design specifications",
+        "editable": true,
+        "min": 1,
+        "max": 100
+      },
+      "flood_frequency_reduction": {
+        "value": 0.7,
+        "unit": "%",
+        "rationale": "Reduction in flood frequency with infrastructure",
+        "source": "FEMA - Flood Risk Assessment",
+        "editable": true,
+        "min": 0.5,
+        "max": 0.9
+      },
+      "property_value_protected": {
+        "value": 500000000,
+        "unit": "$",
+        "rationale": "Total property value in protected area",
+        "source": "Property tax assessments",
+        "editable": true,
+        "min": 100000000,
+        "max": 5000000000
+      },
+      "annual_flood_damage": {
+        "value": 25000000,
+        "unit": "$/year",
+        "rationale": "Expected annual flood damage without protection",
+        "source": "Historical flood loss data",
+        "editable": true,
+        "min": 5000000,
+        "max": 100000000
+      },
+      "maintenance_cost": {
+        "value": 1000000,
+        "unit": "$/year",
+        "rationale": "Annual maintenance cost for infrastructure",
+        "source": "Engineering maintenance schedules",
+        "editable": true,
+        "min": 200000,
+        "max": 5000000
       }
     },
     "calculated_metrics": {
@@ -2996,19 +3923,68 @@
     "avoided_loss_per_1m": 8.0,
     "bcr": 8.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 8.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -3167,19 +4143,68 @@
     "avoided_loss_per_1m": 8.0,
     "bcr": 8.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 8.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -3338,19 +4363,68 @@
     "avoided_loss_per_1m": 8.0,
     "bcr": 8.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 8.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -3509,19 +4583,77 @@
     "avoided_loss_per_1m": 7.0,
     "bcr": 7.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 7.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "infrastructure_cost": {
+        "value": 50000000,
+        "unit": "$",
+        "rationale": "Cost of flood protection infrastructure per km",
+        "source": "Army Corps of Engineers cost database",
+        "editable": true,
+        "min": 10000000,
+        "max": 200000000
+      },
+      "protected_area": {
+        "value": 10,
+        "unit": "km\u00b2",
+        "rationale": "Area protected by flood infrastructure",
+        "source": "Engineering design specifications",
+        "editable": true,
+        "min": 1,
+        "max": 100
+      },
+      "flood_frequency_reduction": {
+        "value": 0.7,
+        "unit": "%",
+        "rationale": "Reduction in flood frequency with infrastructure",
+        "source": "FEMA - Flood Risk Assessment",
+        "editable": true,
+        "min": 0.5,
+        "max": 0.9
+      },
+      "property_value_protected": {
+        "value": 500000000,
+        "unit": "$",
+        "rationale": "Total property value in protected area",
+        "source": "Property tax assessments",
+        "editable": true,
+        "min": 100000000,
+        "max": 5000000000
+      },
+      "annual_flood_damage": {
+        "value": 25000000,
+        "unit": "$/year",
+        "rationale": "Expected annual flood damage without protection",
+        "source": "Historical flood loss data",
+        "editable": true,
+        "min": 5000000,
+        "max": 100000000
+      },
+      "maintenance_cost": {
+        "value": 1000000,
+        "unit": "$/year",
+        "rationale": "Annual maintenance cost for infrastructure",
+        "source": "Engineering maintenance schedules",
+        "editable": true,
+        "min": 200000,
+        "max": 5000000
       }
     },
     "calculated_metrics": {
@@ -3680,19 +4812,77 @@
     "avoided_loss_per_1m": 7.0,
     "bcr": 7.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 7.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "system_cost": {
+        "value": 15000000,
+        "unit": "$",
+        "rationale": "Cost of advanced irrigation/water system",
+        "source": "Agricultural engineering cost estimates",
+        "editable": true,
+        "min": 5000000,
+        "max": 50000000
+      },
+      "area_covered": {
+        "value": 5000,
+        "unit": "hectares",
+        "rationale": "Agricultural area served by the system",
+        "source": "Farm size and coverage data",
+        "editable": true,
+        "min": 1000,
+        "max": 20000
+      },
+      "water_efficiency_gain": {
+        "value": 0.4,
+        "unit": "%",
+        "rationale": "Improvement in water use efficiency",
+        "source": "FAO - Water Productivity Studies",
+        "editable": true,
+        "min": 0.2,
+        "max": 0.6
+      },
+      "crop_yield_increase": {
+        "value": 0.25,
+        "unit": "%",
+        "rationale": "Increase in crop yield with improved irrigation",
+        "source": "Agricultural research trials",
+        "editable": true,
+        "min": 0.1,
+        "max": 0.5
+      },
+      "crop_value_per_hectare": {
+        "value": 5000,
+        "unit": "$/hectare/year",
+        "rationale": "Average crop value per hectare",
+        "source": "USDA crop value statistics",
+        "editable": true,
+        "min": 2000,
+        "max": 15000
+      },
+      "annual_operating_cost": {
+        "value": 500000,
+        "unit": "$/year",
+        "rationale": "Annual cost to operate the system",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 100000,
+        "max": 2000000
       }
     },
     "calculated_metrics": {
@@ -3851,19 +5041,68 @@
     "avoided_loss_per_1m": 7.0,
     "bcr": 7.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 7.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -4022,19 +5261,68 @@
     "avoided_loss_per_1m": 7.0,
     "bcr": 7.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 7.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -4193,19 +5481,77 @@
     "avoided_loss_per_1m": 7.0,
     "bcr": 7.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 7.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "construction_cost": {
+        "value": 20000000,
+        "unit": "$",
+        "rationale": "Cost of climate-resilient construction",
+        "source": "Construction cost databases",
+        "editable": true,
+        "min": 5000000,
+        "max": 100000000
+      },
+      "building_area": {
+        "value": 10000,
+        "unit": "m\u00b2",
+        "rationale": "Total building/infrastructure area",
+        "source": "Design specifications",
+        "editable": true,
+        "min": 2000,
+        "max": 50000
+      },
+      "damage_reduction": {
+        "value": 0.65,
+        "unit": "%",
+        "rationale": "Reduction in climate-related damage",
+        "source": "Engineering resilience studies",
+        "editable": true,
+        "min": 0.4,
+        "max": 0.85
+      },
+      "expected_annual_damage": {
+        "value": 2000000,
+        "unit": "$/year",
+        "rationale": "Expected annual damage without resilience measures",
+        "source": "Historical damage data",
+        "editable": true,
+        "min": 500000,
+        "max": 10000000
+      },
+      "energy_savings": {
+        "value": 0.3,
+        "unit": "%",
+        "rationale": "Energy cost savings from climate-resilient design",
+        "source": "Building energy modeling",
+        "editable": true,
+        "min": 0.15,
+        "max": 0.5
+      },
+      "annual_energy_cost": {
+        "value": 500000,
+        "unit": "$/year",
+        "rationale": "Baseline annual energy cost",
+        "source": "Utility bills and projections",
+        "editable": true,
+        "min": 100000,
+        "max": 2000000
       }
     },
     "calculated_metrics": {
@@ -4364,19 +5710,77 @@
     "avoided_loss_per_1m": 7.0,
     "bcr": 7.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 7.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "infrastructure_cost": {
+        "value": 30000000,
+        "unit": "$",
+        "rationale": "Cost of energy infrastructure hardening/upgrade",
+        "source": "DOE - Grid Modernization Cost Studies",
+        "editable": true,
+        "min": 10000000,
+        "max": 100000000
+      },
+      "capacity": {
+        "value": 50,
+        "unit": "MW",
+        "rationale": "Energy capacity of the system",
+        "source": "Engineering specifications",
+        "editable": true,
+        "min": 10,
+        "max": 200
+      },
+      "outage_reduction": {
+        "value": 0.6,
+        "unit": "%",
+        "rationale": "Reduction in power outage frequency/duration",
+        "source": "Utility reliability studies",
+        "editable": true,
+        "min": 0.4,
+        "max": 0.8
+      },
+      "customers_served": {
+        "value": 100000,
+        "unit": "customers",
+        "rationale": "Number of customers served",
+        "source": "Utility service area data",
+        "editable": true,
+        "min": 20000,
+        "max": 500000
+      },
+      "outage_cost_per_customer": {
+        "value": 500,
+        "unit": "$/outage",
+        "rationale": "Economic cost per customer per outage",
+        "source": "DOE - Outage Cost Studies",
+        "editable": true,
+        "min": 200,
+        "max": 2000
+      },
+      "annual_maintenance": {
+        "value": 1500000,
+        "unit": "$/year",
+        "rationale": "Annual maintenance cost",
+        "source": "Utility maintenance budgets",
+        "editable": true,
+        "min": 500000,
+        "max": 5000000
       }
     },
     "calculated_metrics": {
@@ -4535,19 +5939,77 @@
     "avoided_loss_per_1m": 7.0,
     "bcr": 7.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 7.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "infrastructure_cost": {
+        "value": 50000000,
+        "unit": "$",
+        "rationale": "Cost of flood protection infrastructure per km",
+        "source": "Army Corps of Engineers cost database",
+        "editable": true,
+        "min": 10000000,
+        "max": 200000000
+      },
+      "protected_area": {
+        "value": 10,
+        "unit": "km\u00b2",
+        "rationale": "Area protected by flood infrastructure",
+        "source": "Engineering design specifications",
+        "editable": true,
+        "min": 1,
+        "max": 100
+      },
+      "flood_frequency_reduction": {
+        "value": 0.7,
+        "unit": "%",
+        "rationale": "Reduction in flood frequency with infrastructure",
+        "source": "FEMA - Flood Risk Assessment",
+        "editable": true,
+        "min": 0.5,
+        "max": 0.9
+      },
+      "property_value_protected": {
+        "value": 500000000,
+        "unit": "$",
+        "rationale": "Total property value in protected area",
+        "source": "Property tax assessments",
+        "editable": true,
+        "min": 100000000,
+        "max": 5000000000
+      },
+      "annual_flood_damage": {
+        "value": 25000000,
+        "unit": "$/year",
+        "rationale": "Expected annual flood damage without protection",
+        "source": "Historical flood loss data",
+        "editable": true,
+        "min": 5000000,
+        "max": 100000000
+      },
+      "maintenance_cost": {
+        "value": 1000000,
+        "unit": "$/year",
+        "rationale": "Annual maintenance cost for infrastructure",
+        "source": "Engineering maintenance schedules",
+        "editable": true,
+        "min": 200000,
+        "max": 5000000
       }
     },
     "calculated_metrics": {
@@ -4706,19 +6168,68 @@
     "avoided_loss_per_1m": 6.5,
     "bcr": 6.5,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 6.5,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -4877,19 +6388,77 @@
     "avoided_loss_per_1m": 6.0,
     "bcr": 6.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 6.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "construction_cost": {
+        "value": 20000000,
+        "unit": "$",
+        "rationale": "Cost of climate-resilient construction",
+        "source": "Construction cost databases",
+        "editable": true,
+        "min": 5000000,
+        "max": 100000000
+      },
+      "building_area": {
+        "value": 10000,
+        "unit": "m\u00b2",
+        "rationale": "Total building/infrastructure area",
+        "source": "Design specifications",
+        "editable": true,
+        "min": 2000,
+        "max": 50000
+      },
+      "damage_reduction": {
+        "value": 0.65,
+        "unit": "%",
+        "rationale": "Reduction in climate-related damage",
+        "source": "Engineering resilience studies",
+        "editable": true,
+        "min": 0.4,
+        "max": 0.85
+      },
+      "expected_annual_damage": {
+        "value": 2000000,
+        "unit": "$/year",
+        "rationale": "Expected annual damage without resilience measures",
+        "source": "Historical damage data",
+        "editable": true,
+        "min": 500000,
+        "max": 10000000
+      },
+      "energy_savings": {
+        "value": 0.3,
+        "unit": "%",
+        "rationale": "Energy cost savings from climate-resilient design",
+        "source": "Building energy modeling",
+        "editable": true,
+        "min": 0.15,
+        "max": 0.5
+      },
+      "annual_energy_cost": {
+        "value": 500000,
+        "unit": "$/year",
+        "rationale": "Baseline annual energy cost",
+        "source": "Utility bills and projections",
+        "editable": true,
+        "min": 100000,
+        "max": 2000000
       }
     },
     "calculated_metrics": {
@@ -5048,19 +6617,77 @@
     "avoided_loss_per_1m": 6.0,
     "bcr": 6.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 6.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "infrastructure_cost": {
+        "value": 50000000,
+        "unit": "$",
+        "rationale": "Cost of flood protection infrastructure per km",
+        "source": "Army Corps of Engineers cost database",
+        "editable": true,
+        "min": 10000000,
+        "max": 200000000
+      },
+      "protected_area": {
+        "value": 10,
+        "unit": "km\u00b2",
+        "rationale": "Area protected by flood infrastructure",
+        "source": "Engineering design specifications",
+        "editable": true,
+        "min": 1,
+        "max": 100
+      },
+      "flood_frequency_reduction": {
+        "value": 0.7,
+        "unit": "%",
+        "rationale": "Reduction in flood frequency with infrastructure",
+        "source": "FEMA - Flood Risk Assessment",
+        "editable": true,
+        "min": 0.5,
+        "max": 0.9
+      },
+      "property_value_protected": {
+        "value": 500000000,
+        "unit": "$",
+        "rationale": "Total property value in protected area",
+        "source": "Property tax assessments",
+        "editable": true,
+        "min": 100000000,
+        "max": 5000000000
+      },
+      "annual_flood_damage": {
+        "value": 25000000,
+        "unit": "$/year",
+        "rationale": "Expected annual flood damage without protection",
+        "source": "Historical flood loss data",
+        "editable": true,
+        "min": 5000000,
+        "max": 100000000
+      },
+      "maintenance_cost": {
+        "value": 1000000,
+        "unit": "$/year",
+        "rationale": "Annual maintenance cost for infrastructure",
+        "source": "Engineering maintenance schedules",
+        "editable": true,
+        "min": 200000,
+        "max": 5000000
       }
     },
     "calculated_metrics": {
@@ -5219,19 +6846,68 @@
     "avoided_loss_per_1m": 6.0,
     "bcr": 6.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 6.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -5390,19 +7066,68 @@
     "avoided_loss_per_1m": 6.0,
     "bcr": 6.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 6.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -5561,19 +7286,77 @@
     "avoided_loss_per_1m": 6.0,
     "bcr": 6.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 6.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "construction_cost": {
+        "value": 20000000,
+        "unit": "$",
+        "rationale": "Cost of climate-resilient construction",
+        "source": "Construction cost databases",
+        "editable": true,
+        "min": 5000000,
+        "max": 100000000
+      },
+      "building_area": {
+        "value": 10000,
+        "unit": "m\u00b2",
+        "rationale": "Total building/infrastructure area",
+        "source": "Design specifications",
+        "editable": true,
+        "min": 2000,
+        "max": 50000
+      },
+      "damage_reduction": {
+        "value": 0.65,
+        "unit": "%",
+        "rationale": "Reduction in climate-related damage",
+        "source": "Engineering resilience studies",
+        "editable": true,
+        "min": 0.4,
+        "max": 0.85
+      },
+      "expected_annual_damage": {
+        "value": 2000000,
+        "unit": "$/year",
+        "rationale": "Expected annual damage without resilience measures",
+        "source": "Historical damage data",
+        "editable": true,
+        "min": 500000,
+        "max": 10000000
+      },
+      "energy_savings": {
+        "value": 0.3,
+        "unit": "%",
+        "rationale": "Energy cost savings from climate-resilient design",
+        "source": "Building energy modeling",
+        "editable": true,
+        "min": 0.15,
+        "max": 0.5
+      },
+      "annual_energy_cost": {
+        "value": 500000,
+        "unit": "$/year",
+        "rationale": "Baseline annual energy cost",
+        "source": "Utility bills and projections",
+        "editable": true,
+        "min": 100000,
+        "max": 2000000
       }
     },
     "calculated_metrics": {
@@ -5732,19 +7515,77 @@
     "avoided_loss_per_1m": 6.0,
     "bcr": 6.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 6.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "infrastructure_cost": {
+        "value": 30000000,
+        "unit": "$",
+        "rationale": "Cost of energy infrastructure hardening/upgrade",
+        "source": "DOE - Grid Modernization Cost Studies",
+        "editable": true,
+        "min": 10000000,
+        "max": 100000000
+      },
+      "capacity": {
+        "value": 50,
+        "unit": "MW",
+        "rationale": "Energy capacity of the system",
+        "source": "Engineering specifications",
+        "editable": true,
+        "min": 10,
+        "max": 200
+      },
+      "outage_reduction": {
+        "value": 0.6,
+        "unit": "%",
+        "rationale": "Reduction in power outage frequency/duration",
+        "source": "Utility reliability studies",
+        "editable": true,
+        "min": 0.4,
+        "max": 0.8
+      },
+      "customers_served": {
+        "value": 100000,
+        "unit": "customers",
+        "rationale": "Number of customers served",
+        "source": "Utility service area data",
+        "editable": true,
+        "min": 20000,
+        "max": 500000
+      },
+      "outage_cost_per_customer": {
+        "value": 500,
+        "unit": "$/outage",
+        "rationale": "Economic cost per customer per outage",
+        "source": "DOE - Outage Cost Studies",
+        "editable": true,
+        "min": 200,
+        "max": 2000
+      },
+      "annual_maintenance": {
+        "value": 1500000,
+        "unit": "$/year",
+        "rationale": "Annual maintenance cost",
+        "source": "Utility maintenance budgets",
+        "editable": true,
+        "min": 500000,
+        "max": 5000000
       }
     },
     "calculated_metrics": {
@@ -5903,19 +7744,68 @@
     "avoided_loss_per_1m": 6.0,
     "bcr": 6.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 6.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -6074,19 +7964,68 @@
     "avoided_loss_per_1m": 6.0,
     "bcr": 6.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 6.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -6195,19 +8134,68 @@
     "avoided_loss_per_1m": 5.0,
     "bcr": 5.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 5.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -6366,19 +8354,68 @@
     "avoided_loss_per_1m": 5.0,
     "bcr": 5.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 5.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -6537,19 +8574,77 @@
     "avoided_loss_per_1m": 5.0,
     "bcr": 5.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 5.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "construction_cost": {
+        "value": 20000000,
+        "unit": "$",
+        "rationale": "Cost of climate-resilient construction",
+        "source": "Construction cost databases",
+        "editable": true,
+        "min": 5000000,
+        "max": 100000000
+      },
+      "building_area": {
+        "value": 10000,
+        "unit": "m\u00b2",
+        "rationale": "Total building/infrastructure area",
+        "source": "Design specifications",
+        "editable": true,
+        "min": 2000,
+        "max": 50000
+      },
+      "damage_reduction": {
+        "value": 0.65,
+        "unit": "%",
+        "rationale": "Reduction in climate-related damage",
+        "source": "Engineering resilience studies",
+        "editable": true,
+        "min": 0.4,
+        "max": 0.85
+      },
+      "expected_annual_damage": {
+        "value": 2000000,
+        "unit": "$/year",
+        "rationale": "Expected annual damage without resilience measures",
+        "source": "Historical damage data",
+        "editable": true,
+        "min": 500000,
+        "max": 10000000
+      },
+      "energy_savings": {
+        "value": 0.3,
+        "unit": "%",
+        "rationale": "Energy cost savings from climate-resilient design",
+        "source": "Building energy modeling",
+        "editable": true,
+        "min": 0.15,
+        "max": 0.5
+      },
+      "annual_energy_cost": {
+        "value": 500000,
+        "unit": "$/year",
+        "rationale": "Baseline annual energy cost",
+        "source": "Utility bills and projections",
+        "editable": true,
+        "min": 100000,
+        "max": 2000000
       }
     },
     "calculated_metrics": {
@@ -6708,19 +8803,68 @@
     "avoided_loss_per_1m": 5.0,
     "bcr": 5.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 5.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -6879,19 +9023,77 @@
     "avoided_loss_per_1m": 5.0,
     "bcr": 5.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 5.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "infrastructure_cost": {
+        "value": 30000000,
+        "unit": "$",
+        "rationale": "Cost of energy infrastructure hardening/upgrade",
+        "source": "DOE - Grid Modernization Cost Studies",
+        "editable": true,
+        "min": 10000000,
+        "max": 100000000
+      },
+      "capacity": {
+        "value": 50,
+        "unit": "MW",
+        "rationale": "Energy capacity of the system",
+        "source": "Engineering specifications",
+        "editable": true,
+        "min": 10,
+        "max": 200
+      },
+      "outage_reduction": {
+        "value": 0.6,
+        "unit": "%",
+        "rationale": "Reduction in power outage frequency/duration",
+        "source": "Utility reliability studies",
+        "editable": true,
+        "min": 0.4,
+        "max": 0.8
+      },
+      "customers_served": {
+        "value": 100000,
+        "unit": "customers",
+        "rationale": "Number of customers served",
+        "source": "Utility service area data",
+        "editable": true,
+        "min": 20000,
+        "max": 500000
+      },
+      "outage_cost_per_customer": {
+        "value": 500,
+        "unit": "$/outage",
+        "rationale": "Economic cost per customer per outage",
+        "source": "DOE - Outage Cost Studies",
+        "editable": true,
+        "min": 200,
+        "max": 2000
+      },
+      "annual_maintenance": {
+        "value": 1500000,
+        "unit": "$/year",
+        "rationale": "Annual maintenance cost",
+        "source": "Utility maintenance budgets",
+        "editable": true,
+        "min": 500000,
+        "max": 5000000
       }
     },
     "calculated_metrics": {
@@ -7050,19 +9252,77 @@
     "avoided_loss_per_1m": 5.0,
     "bcr": 5.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 5.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "construction_cost": {
+        "value": 20000000,
+        "unit": "$",
+        "rationale": "Cost of climate-resilient construction",
+        "source": "Construction cost databases",
+        "editable": true,
+        "min": 5000000,
+        "max": 100000000
+      },
+      "building_area": {
+        "value": 10000,
+        "unit": "m\u00b2",
+        "rationale": "Total building/infrastructure area",
+        "source": "Design specifications",
+        "editable": true,
+        "min": 2000,
+        "max": 50000
+      },
+      "damage_reduction": {
+        "value": 0.65,
+        "unit": "%",
+        "rationale": "Reduction in climate-related damage",
+        "source": "Engineering resilience studies",
+        "editable": true,
+        "min": 0.4,
+        "max": 0.85
+      },
+      "expected_annual_damage": {
+        "value": 2000000,
+        "unit": "$/year",
+        "rationale": "Expected annual damage without resilience measures",
+        "source": "Historical damage data",
+        "editable": true,
+        "min": 500000,
+        "max": 10000000
+      },
+      "energy_savings": {
+        "value": 0.3,
+        "unit": "%",
+        "rationale": "Energy cost savings from climate-resilient design",
+        "source": "Building energy modeling",
+        "editable": true,
+        "min": 0.15,
+        "max": 0.5
+      },
+      "annual_energy_cost": {
+        "value": 500000,
+        "unit": "$/year",
+        "rationale": "Baseline annual energy cost",
+        "source": "Utility bills and projections",
+        "editable": true,
+        "min": 100000,
+        "max": 2000000
       }
     },
     "calculated_metrics": {
@@ -7221,19 +9481,68 @@
     "avoided_loss_per_1m": 5.0,
     "bcr": 5.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 5.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -7392,19 +9701,77 @@
     "avoided_loss_per_1m": 5.0,
     "bcr": 5.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 5.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "construction_cost": {
+        "value": 20000000,
+        "unit": "$",
+        "rationale": "Cost of climate-resilient construction",
+        "source": "Construction cost databases",
+        "editable": true,
+        "min": 5000000,
+        "max": 100000000
+      },
+      "building_area": {
+        "value": 10000,
+        "unit": "m\u00b2",
+        "rationale": "Total building/infrastructure area",
+        "source": "Design specifications",
+        "editable": true,
+        "min": 2000,
+        "max": 50000
+      },
+      "damage_reduction": {
+        "value": 0.65,
+        "unit": "%",
+        "rationale": "Reduction in climate-related damage",
+        "source": "Engineering resilience studies",
+        "editable": true,
+        "min": 0.4,
+        "max": 0.85
+      },
+      "expected_annual_damage": {
+        "value": 2000000,
+        "unit": "$/year",
+        "rationale": "Expected annual damage without resilience measures",
+        "source": "Historical damage data",
+        "editable": true,
+        "min": 500000,
+        "max": 10000000
+      },
+      "energy_savings": {
+        "value": 0.3,
+        "unit": "%",
+        "rationale": "Energy cost savings from climate-resilient design",
+        "source": "Building energy modeling",
+        "editable": true,
+        "min": 0.15,
+        "max": 0.5
+      },
+      "annual_energy_cost": {
+        "value": 500000,
+        "unit": "$/year",
+        "rationale": "Baseline annual energy cost",
+        "source": "Utility bills and projections",
+        "editable": true,
+        "min": 100000,
+        "max": 2000000
       }
     },
     "calculated_metrics": {
@@ -7563,19 +9930,68 @@
     "avoided_loss_per_1m": 5.0,
     "bcr": 5.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 5.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -7734,19 +10150,68 @@
     "avoided_loss_per_1m": 5.0,
     "bcr": 5.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 5.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -7905,19 +10370,68 @@
     "avoided_loss_per_1m": 5.0,
     "bcr": 5.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 5.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -8076,19 +10590,77 @@
     "avoided_loss_per_1m": 4.5,
     "bcr": 4.5,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 4.5,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "system_cost": {
+        "value": 15000000,
+        "unit": "$",
+        "rationale": "Cost of advanced irrigation/water system",
+        "source": "Agricultural engineering cost estimates",
+        "editable": true,
+        "min": 5000000,
+        "max": 50000000
+      },
+      "area_covered": {
+        "value": 5000,
+        "unit": "hectares",
+        "rationale": "Agricultural area served by the system",
+        "source": "Farm size and coverage data",
+        "editable": true,
+        "min": 1000,
+        "max": 20000
+      },
+      "water_efficiency_gain": {
+        "value": 0.4,
+        "unit": "%",
+        "rationale": "Improvement in water use efficiency",
+        "source": "FAO - Water Productivity Studies",
+        "editable": true,
+        "min": 0.2,
+        "max": 0.6
+      },
+      "crop_yield_increase": {
+        "value": 0.25,
+        "unit": "%",
+        "rationale": "Increase in crop yield with improved irrigation",
+        "source": "Agricultural research trials",
+        "editable": true,
+        "min": 0.1,
+        "max": 0.5
+      },
+      "crop_value_per_hectare": {
+        "value": 5000,
+        "unit": "$/hectare/year",
+        "rationale": "Average crop value per hectare",
+        "source": "USDA crop value statistics",
+        "editable": true,
+        "min": 2000,
+        "max": 15000
+      },
+      "annual_operating_cost": {
+        "value": 500000,
+        "unit": "$/year",
+        "rationale": "Annual cost to operate the system",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 100000,
+        "max": 2000000
       }
     },
     "calculated_metrics": {
@@ -8247,19 +10819,77 @@
     "avoided_loss_per_1m": 4.0,
     "bcr": 4.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 4.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "system_cost": {
+        "value": 15000000,
+        "unit": "$",
+        "rationale": "Cost of advanced irrigation/water system",
+        "source": "Agricultural engineering cost estimates",
+        "editable": true,
+        "min": 5000000,
+        "max": 50000000
+      },
+      "area_covered": {
+        "value": 5000,
+        "unit": "hectares",
+        "rationale": "Agricultural area served by the system",
+        "source": "Farm size and coverage data",
+        "editable": true,
+        "min": 1000,
+        "max": 20000
+      },
+      "water_efficiency_gain": {
+        "value": 0.4,
+        "unit": "%",
+        "rationale": "Improvement in water use efficiency",
+        "source": "FAO - Water Productivity Studies",
+        "editable": true,
+        "min": 0.2,
+        "max": 0.6
+      },
+      "crop_yield_increase": {
+        "value": 0.25,
+        "unit": "%",
+        "rationale": "Increase in crop yield with improved irrigation",
+        "source": "Agricultural research trials",
+        "editable": true,
+        "min": 0.1,
+        "max": 0.5
+      },
+      "crop_value_per_hectare": {
+        "value": 5000,
+        "unit": "$/hectare/year",
+        "rationale": "Average crop value per hectare",
+        "source": "USDA crop value statistics",
+        "editable": true,
+        "min": 2000,
+        "max": 15000
+      },
+      "annual_operating_cost": {
+        "value": 500000,
+        "unit": "$/year",
+        "rationale": "Annual cost to operate the system",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 100000,
+        "max": 2000000
       }
     },
     "calculated_metrics": {
@@ -8418,19 +11048,68 @@
     "avoided_loss_per_1m": 4.0,
     "bcr": 4.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 4.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -8589,19 +11268,77 @@
     "avoided_loss_per_1m": 4.0,
     "bcr": 4.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 4.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "system_cost": {
+        "value": 2500000,
+        "unit": "$",
+        "rationale": "City-wide heat warning system deployment cost",
+        "source": "CDC - Heat Response Planning Guide",
+        "editable": true,
+        "min": 500000,
+        "max": 5000000
+      },
+      "population_served": {
+        "value": 500000,
+        "unit": "people",
+        "rationale": "Population covered by the warning system",
+        "source": "City population data",
+        "editable": true,
+        "min": 100000,
+        "max": 5000000
+      },
+      "heat_mortality_reduction": {
+        "value": 0.45,
+        "unit": "%",
+        "rationale": "Reduction in heat-related mortality with warning system",
+        "source": "WHO - Heat-Health Action Plans",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.6
+      },
+      "baseline_heat_deaths": {
+        "value": 5,
+        "unit": "deaths/100k/year",
+        "rationale": "Baseline heat-related deaths per 100,000 population",
+        "source": "CDC WONDER Database",
+        "editable": true,
+        "min": 1,
+        "max": 10
+      },
+      "vsl": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Value of Statistical Life for benefit calculation",
+        "source": "EPA - Guidelines for Preparing Economic Analyses",
+        "editable": true,
+        "min": 5000000,
+        "max": 15000000
+      },
+      "annual_operating_cost": {
+        "value": 150000,
+        "unit": "$/year",
+        "rationale": "Annual cost to operate and maintain the system",
+        "source": "Municipal budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -8760,19 +11497,68 @@
     "avoided_loss_per_1m": 4.0,
     "bcr": 4.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 4.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -8931,19 +11717,68 @@
     "avoided_loss_per_1m": 4.0,
     "bcr": 4.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 4.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -9102,19 +11937,68 @@
     "avoided_loss_per_1m": 4.0,
     "bcr": 4.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 4.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -9197,19 +12081,68 @@
     "avoided_loss_per_1m": 4.0,
     "bcr": 4.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 4.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -9368,19 +12301,68 @@
     "avoided_loss_per_1m": 4.0,
     "bcr": 4.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 4.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -9511,19 +12493,68 @@
     "avoided_loss_per_1m": 4.0,
     "bcr": 4.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 4.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {
@@ -9642,19 +12673,77 @@
     "avoided_loss_per_1m": 3.5,
     "bcr": 3.5,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 3.5,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "system_cost": {
+        "value": 15000000,
+        "unit": "$",
+        "rationale": "Cost of advanced irrigation/water system",
+        "source": "Agricultural engineering cost estimates",
+        "editable": true,
+        "min": 5000000,
+        "max": 50000000
+      },
+      "area_covered": {
+        "value": 5000,
+        "unit": "hectares",
+        "rationale": "Agricultural area served by the system",
+        "source": "Farm size and coverage data",
+        "editable": true,
+        "min": 1000,
+        "max": 20000
+      },
+      "water_efficiency_gain": {
+        "value": 0.4,
+        "unit": "%",
+        "rationale": "Improvement in water use efficiency",
+        "source": "FAO - Water Productivity Studies",
+        "editable": true,
+        "min": 0.2,
+        "max": 0.6
+      },
+      "crop_yield_increase": {
+        "value": 0.25,
+        "unit": "%",
+        "rationale": "Increase in crop yield with improved irrigation",
+        "source": "Agricultural research trials",
+        "editable": true,
+        "min": 0.1,
+        "max": 0.5
+      },
+      "crop_value_per_hectare": {
+        "value": 5000,
+        "unit": "$/hectare/year",
+        "rationale": "Average crop value per hectare",
+        "source": "USDA crop value statistics",
+        "editable": true,
+        "min": 2000,
+        "max": 15000
+      },
+      "annual_operating_cost": {
+        "value": 500000,
+        "unit": "$/year",
+        "rationale": "Annual cost to operate the system",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 100000,
+        "max": 2000000
       }
     },
     "calculated_metrics": {
@@ -9813,19 +12902,77 @@
     "avoided_loss_per_1m": 3.0,
     "bcr": 3.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 3.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "infrastructure_cost": {
+        "value": 30000000,
+        "unit": "$",
+        "rationale": "Cost of energy infrastructure hardening/upgrade",
+        "source": "DOE - Grid Modernization Cost Studies",
+        "editable": true,
+        "min": 10000000,
+        "max": 100000000
+      },
+      "capacity": {
+        "value": 50,
+        "unit": "MW",
+        "rationale": "Energy capacity of the system",
+        "source": "Engineering specifications",
+        "editable": true,
+        "min": 10,
+        "max": 200
+      },
+      "outage_reduction": {
+        "value": 0.6,
+        "unit": "%",
+        "rationale": "Reduction in power outage frequency/duration",
+        "source": "Utility reliability studies",
+        "editable": true,
+        "min": 0.4,
+        "max": 0.8
+      },
+      "customers_served": {
+        "value": 100000,
+        "unit": "customers",
+        "rationale": "Number of customers served",
+        "source": "Utility service area data",
+        "editable": true,
+        "min": 20000,
+        "max": 500000
+      },
+      "outage_cost_per_customer": {
+        "value": 500,
+        "unit": "$/outage",
+        "rationale": "Economic cost per customer per outage",
+        "source": "DOE - Outage Cost Studies",
+        "editable": true,
+        "min": 200,
+        "max": 2000
+      },
+      "annual_maintenance": {
+        "value": 1500000,
+        "unit": "$/year",
+        "rationale": "Annual maintenance cost",
+        "source": "Utility maintenance budgets",
+        "editable": true,
+        "min": 500000,
+        "max": 5000000
       }
     },
     "calculated_metrics": {
@@ -9944,19 +13091,68 @@
     "avoided_loss_per_1m": 3.0,
     "bcr": 3.0,
     "assumptions": {
-      "base_investment": {
-        "value": 1000000,
-        "unit": "$",
-        "rationale": "Base investment amount for calculating avoided losses",
-        "source": "Framework methodology",
-        "editable": true
+      "discount_rate": {
+        "value": 0.03,
+        "unit": "%",
+        "rationale": "Social discount rate for NPV calculations",
+        "source": "World Bank - Economic Analysis Guidelines",
+        "editable": true,
+        "min": 0.01,
+        "max": 0.1
       },
-      "avoided_loss_multiplier": {
-        "value": 3.0,
-        "unit": "x",
-        "rationale": "Avoided economic loss per $1M invested based on empirical analysis",
-        "source": "Company-level analysis",
-        "editable": true
+      "time_horizon": {
+        "value": 20,
+        "unit": "years",
+        "rationale": "Project evaluation time horizon",
+        "source": "Standard infrastructure project timeline",
+        "editable": true,
+        "min": 5,
+        "max": 50
+      },
+      "implementation_cost": {
+        "value": 10000000,
+        "unit": "$",
+        "rationale": "Cost to implement the adaptation measure",
+        "source": "Industry cost estimates",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "effectiveness": {
+        "value": 0.5,
+        "unit": "%",
+        "rationale": "Effectiveness in reducing climate risks",
+        "source": "Academic research and case studies",
+        "editable": true,
+        "min": 0.3,
+        "max": 0.8
+      },
+      "baseline_annual_loss": {
+        "value": 5000000,
+        "unit": "$/year",
+        "rationale": "Expected annual loss without adaptation",
+        "source": "Risk assessment studies",
+        "editable": true,
+        "min": 1000000,
+        "max": 50000000
+      },
+      "annual_operating_cost": {
+        "value": 300000,
+        "unit": "$/year",
+        "rationale": "Annual operating and maintenance cost",
+        "source": "Operational budget estimates",
+        "editable": true,
+        "min": 50000,
+        "max": 2000000
+      },
+      "beneficiaries": {
+        "value": 50000,
+        "unit": "people",
+        "rationale": "Number of people benefiting from the measure",
+        "source": "Population and coverage analysis",
+        "editable": true,
+        "min": 10000,
+        "max": 500000
       }
     },
     "calculated_metrics": {

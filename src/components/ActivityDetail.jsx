@@ -4,12 +4,14 @@ import { Input } from '@/components/ui/input.jsx'
 import { Button } from '@/components/ui/button.jsx'
 import { Badge } from '@/components/ui/badge.jsx'
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table.jsx'
-import { Download, RefreshCw, TrendingUp } from 'lucide-react'
+import { Download, RefreshCw, TrendingUp, Plus, Trash2, Edit } from 'lucide-react'
 import { calculateMetrics } from '../lib/calculations.js'
 
 export default function ActivityDetail({ activity, onAssumptionChange }) {
   const [editedValues, setEditedValues] = useState({})
   const [calculatedMetrics, setCalculatedMetrics] = useState({})
+  const [editedSegments, setEditedSegments] = useState(activity.factset_segments || [])
+  const [editingSegmentIdx, setEditingSegmentIdx] = useState(null)
 
   useEffect(() => {
     // Recalculate metrics when activity or edited values change
@@ -230,36 +232,152 @@ export default function ActivityDetail({ activity, onAssumptionChange }) {
       {/* FactSet Segments Card */}
       <Card>
         <CardHeader>
-          <CardTitle>FactSet Business Segments</CardTitle>
-          <CardDescription>
-            Business segments that map to this activity (editable attribution)
-          </CardDescription>
+          <div className="flex justify-between items-center">
+            <div>
+              <CardTitle>FactSet Business Segments</CardTitle>
+              <CardDescription>
+                Business segments that map to this activity (editable attribution)
+              </CardDescription>
+            </div>
+            <Button 
+              variant="outline" 
+              size="sm" 
+              onClick={() => {
+                const newSegment = {
+                  segment_name: 'New Segment',
+                  full_path: 'Category > Subcategory > New Segment',
+                  attribution_pct: 10,
+                  source: 'Manual entry'
+                }
+                setEditedSegments([...editedSegments, newSegment])
+              }}
+            >
+              <Plus className="h-4 w-4 mr-2" />
+              Add Segment
+            </Button>
+          </div>
         </CardHeader>
         <CardContent>
-          {activity.factset_segments && activity.factset_segments.length > 0 ? (
+          {editedSegments && editedSegments.length > 0 ? (
             <div className="space-y-3">
-              {activity.factset_segments.map((segment, idx) => (
-                <div key={idx} className="flex items-center justify-between p-3 bg-blue-50 rounded-lg">
+              {editedSegments.map((segment, idx) => (
+                <div key={idx} className="flex items-center gap-3 p-3 bg-blue-50 rounded-lg">
                   <div className="flex-1">
-                    <div className="font-medium text-blue-900">
-                      {typeof segment === 'string' ? segment : segment.segment_name}
-                    </div>
-                    {segment.full_path && (
-                      <div className="text-xs text-blue-600 mt-1">
-                        {segment.full_path}
+                    {editingSegmentIdx === idx ? (
+                      <div className="space-y-2">
+                        <Input
+                          value={segment.segment_name}
+                          onChange={(e) => {
+                            const updated = [...editedSegments]
+                            updated[idx].segment_name = e.target.value
+                            setEditedSegments(updated)
+                          }}
+                          placeholder="Segment name"
+                          className="font-medium"
+                        />
+                        <Input
+                          value={segment.full_path}
+                          onChange={(e) => {
+                            const updated = [...editedSegments]
+                            updated[idx].full_path = e.target.value
+                            setEditedSegments(updated)
+                          }}
+                          placeholder="Full path (e.g., Category > Subcategory > Segment)"
+                          className="text-sm"
+                        />
+                      </div>
+                    ) : (
+                      <div>
+                        <div className="font-medium text-blue-900">
+                          {typeof segment === 'string' ? segment : segment.segment_name}
+                        </div>
+                        {segment.full_path && (
+                          <div className="text-xs text-blue-600 mt-1">
+                            {segment.full_path}
+                          </div>
+                        )}
                       </div>
                     )}
                   </div>
-                  {segment.attribution_pct && (
-                    <Badge variant="secondary" className="ml-3">
-                      {segment.attribution_pct}%
-                    </Badge>
-                  )}
+                  <div className="flex items-center gap-2">
+                    {editingSegmentIdx === idx ? (
+                      <Input
+                        type="number"
+                        value={segment.attribution_pct}
+                        onChange={(e) => {
+                          const updated = [...editedSegments]
+                          updated[idx].attribution_pct = parseFloat(e.target.value)
+                          setEditedSegments(updated)
+                        }}
+                        className="w-20"
+                        min="0"
+                        max="100"
+                        step="1"
+                      />
+                    ) : (
+                      <Badge variant="secondary">
+                        {segment.attribution_pct}%
+                      </Badge>
+                    )}
+                    <Button
+                      variant="ghost"
+                      size="sm"
+                      onClick={() => {
+                        if (editingSegmentIdx === idx) {
+                          setEditingSegmentIdx(null)
+                        } else {
+                          setEditingSegmentIdx(idx)
+                        }
+                      }}
+                    >
+                      <Edit className="h-4 w-4" />
+                    </Button>
+                    <Button
+                      variant="ghost"
+                      size="sm"
+                      onClick={() => {
+                        const updated = editedSegments.filter((_, i) => i !== idx)
+                        setEditedSegments(updated)
+                        if (editingSegmentIdx === idx) {
+                          setEditingSegmentIdx(null)
+                        }
+                      }}
+                    >
+                      <Trash2 className="h-4 w-4 text-red-600" />
+                    </Button>
+                  </div>
                 </div>
               ))}
+              <div className="mt-4 p-3 bg-gray-50 rounded-lg">
+                <div className="text-sm text-gray-700">
+                  <strong>Total Attribution:</strong> {editedSegments.reduce((sum, seg) => sum + (seg.attribution_pct || 0), 0).toFixed(1)}%
+                  {editedSegments.reduce((sum, seg) => sum + (seg.attribution_pct || 0), 0) !== 100 && (
+                    <span className="ml-2 text-orange-600">
+                      (Should total 100%)
+                    </span>
+                  )}
+                </div>
+              </div>
             </div>
           ) : (
-            <p className="text-sm text-gray-500">No segment mappings available</p>
+            <div className="text-center py-8">
+              <p className="text-sm text-gray-500 mb-4">No segment mappings available</p>
+              <Button 
+                variant="outline" 
+                onClick={() => {
+                  const newSegment = {
+                    segment_name: 'New Segment',
+                    full_path: 'Category > Subcategory > New Segment',
+                    attribution_pct: 100,
+                    source: 'Manual entry'
+                  }
+                  setEditedSegments([newSegment])
+                }}
+              >
+                <Plus className="h-4 w-4 mr-2" />
+                Add First Segment
+              </Button>
+            </div>
           )}
         </CardContent>
       </Card>
