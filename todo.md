@@ -70,8 +70,22 @@
 
 
 ## Bugs to Fix
-- [ ] Fix blank page issue when clicking on activities in the dashboard
-- [ ] Investigate console errors and activity detail component
-- [ ] Ensure all 61 activities display correctly when selected
+- [x] Fix blank page issue when clicking on activities in the dashboard
+- [x] Investigate console errors and activity detail component
+- [x] Ensure all 61 activities display correctly when selected
+
+
+
+
+## Dashboard Enhancement - Detailed Assumptions & Segments
+- [x] Extract detailed assumptions from comprehensive framework for each activity
+- [x] Add granular editable assumptions (cost per unit, effectiveness, discount rate, etc.)
+- [x] Populate FactSet segments for each activity from mapping
+- [x] Make FactSet segments editable with attribution percentages
+- [x] Calculate top companies by avoided loss for each activity
+- [x] Display top companies in Key Companies section
+- [x] Rebuild dashboard with enhanced data
+- [x] Test enhanced dashboard locally - all features working correctly
+- [ ] Deploy to Heroku (pending valid API credentials)
 
 

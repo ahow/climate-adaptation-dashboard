@@ -232,17 +232,35 @@ export default function ActivityDetail({ activity, onAssumptionChange }) {
         <CardHeader>
           <CardTitle>FactSet Business Segments</CardTitle>
           <CardDescription>
-            Business segments that map to this activity
+            Business segments that map to this activity (editable attribution)
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <div className="flex flex-wrap gap-2">
-            {activity.factset_segments.map((segment, idx) => (
-              <Badge key={idx} variant="secondary" className="text-sm">
-                {segment}
-              </Badge>
-            ))}
-          </div>
+          {activity.factset_segments && activity.factset_segments.length > 0 ? (
+            <div className="space-y-3">
+              {activity.factset_segments.map((segment, idx) => (
+                <div key={idx} className="flex items-center justify-between p-3 bg-blue-50 rounded-lg">
+                  <div className="flex-1">
+                    <div className="font-medium text-blue-900">
+                      {typeof segment === 'string' ? segment : segment.segment_name}
+                    </div>
+                    {segment.full_path && (
+                      <div className="text-xs text-blue-600 mt-1">
+                        {segment.full_path}
+                      </div>
+                    )}
+                  </div>
+                  {segment.attribution_pct && (
+                    <Badge variant="secondary" className="ml-3">
+                      {segment.attribution_pct}%
+                    </Badge>
+                  )}
+                </div>
+              ))}
+            </div>
+          ) : (
+            <p className="text-sm text-gray-500">No segment mappings available</p>
+          )}
         </CardContent>
       </Card>
 
@@ -251,17 +269,53 @@ export default function ActivityDetail({ activity, onAssumptionChange }) {
         <CardHeader>
           <CardTitle>Key Companies</CardTitle>
           <CardDescription>
-            Leading companies in this activity
+            Top companies by avoided loss exposure ($ millions)
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <div className="flex flex-wrap gap-2">
-            {activity.key_companies.map((company, idx) => (
-              <Badge key={idx} variant="outline" className="text-sm">
-                {company}
-              </Badge>
-            ))}
-          </div>
+          {activity.key_companies && activity.key_companies.length > 0 ? (
+            <div className="overflow-x-auto">
+              <Table>
+                <TableHeader>
+                  <TableRow>
+                    <TableHead>Company</TableHead>
+                    <TableHead className="text-right">Revenue</TableHead>
+                    <TableHead className="text-right">Segment Revenue</TableHead>
+                    <TableHead className="text-right">Avoided Loss</TableHead>
+                  </TableRow>
+                </TableHeader>
+                <TableBody>
+                  {activity.key_companies.slice(0, 10).map((company, idx) => (
+                    <TableRow key={idx}>
+                      <TableCell className="font-medium">
+                        {typeof company === 'string' ? company : company.company_name}
+                      </TableCell>
+                      <TableCell className="text-right text-sm">
+                        {company.revenue_m ? `$${company.revenue_m.toLocaleString()}M` : '-'}
+                      </TableCell>
+                      <TableCell className="text-right text-sm">
+                        {company.segment_revenue_m ? (
+                          <div>
+                            <div>${company.segment_revenue_m.toLocaleString()}M</div>
+                            {company.segment_revenue_pct && (
+                              <div className="text-xs text-gray-500">
+                                ({company.segment_revenue_pct}%)
+                              </div>
+                            )}
+                          </div>
+                        ) : '-'}
+                      </TableCell>
+                      <TableCell className="text-right font-bold text-green-700">
+                        {company.avoided_loss_m ? `$${company.avoided_loss_m.toLocaleString()}M` : '-'}
+                      </TableCell>
+                    </TableRow>
+                  ))}
+                </TableBody>
+              </Table>
+            </div>
+          ) : (
+            <p className="text-sm text-gray-500">No company data available</p>
+          )}
         </CardContent>
       </Card>
     </div>
